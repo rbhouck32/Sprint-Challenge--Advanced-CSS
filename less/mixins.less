@@ -1,1 +1,17 @@
 // Mixins Here
+.button-style(@btn-bg-color, @btn-font-color, @height, @width, @radius, @border-display) {
+  background-color: @btn-bg-color;
+  color: @btn-font-color;
+  height: @height;
+  width: @width;
+  border-radius: @radius;
+  border: @border-display;
+}
+
+.a-style() {
+  color: @nav-font;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.75rem;
+  padding: 20px;
+}

@@ -1,1 +1,23 @@
 // Navigation code here
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  padding: 20px;
+  background-color: @nav-bg;
+  border-bottom: @nav-border;
+
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 5rem;
+  }
+
+  .nav-wrap {
+    padding-top: 20px;
+    a {
+      .a-style();
+    }
+  }
+}

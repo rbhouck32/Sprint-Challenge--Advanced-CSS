@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites use multiple layouts which in turn arent accessed until someone visits the site. So if you were visiting via a mobile device it would access the mobile layout
+if you were visiting via desktop it would access the desktop layout. Responsive websites use one layout that consistently changes based on screen size or the device you are viewing with.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means that the design was created with the intention to be viewed for mobile first. So they started by designing for mobile first and then used media queries in order to style for other screen sizes second.
+Desktop first meanst that the design was created with the intention to be viewed for Desktop first. They designed the Desktop version first and then added media queries in order to style for other screen sizes second.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It allows for us to convert the default font size to 10px instead of 16px. You then have a much easier time converting/using rem and font size. for example . 2.4rem * 10px = 24px
+
 4. How would you describe preprocessing to someone new to CSS?
 
+A preprocessor allows us as developers to generate CSS from a unique preprocessor's syntax. It also allows you to do things that you cant neccesarily do in Vanilla CSS. including things such as mixins, and nesting selectors accoring to inheritance. 
+It can make for code that is easier to maintain and read.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I really enjoy the ability to create complex parametric mixins that add styling to specific elements of a page. Its a little extra work upfront but seeing it in action is really rewarding. 
+nesting media queries for whatever reason has given me the most trouble. I understand the concept I just sometimes find myself getting lost.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
